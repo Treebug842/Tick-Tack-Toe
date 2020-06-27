@@ -75,10 +75,7 @@ button8 = Button(root, image=o_icon)
 button9 = Button(root, image=o_icon)
 
 def win(x):
-	if x == 1:
-		end_popup(x)
-	elif x == 2:
-		end_popup(x)
+	end_popup(x)
 
 def check_score():
 	for x in range(1, 3):
